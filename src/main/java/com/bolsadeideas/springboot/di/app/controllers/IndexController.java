@@ -12,7 +12,7 @@ import com.bolsadeideas.springboot.di.app.models.service.IServicio;
 public class IndexController {
 
 	@Autowired
-	@Qualifier("miServicioComplejo")
+	@Qualifier("miServicioPrincipal")
 	private IServicio servicio;
 
 	@GetMapping({ "/", "", "/index" })
