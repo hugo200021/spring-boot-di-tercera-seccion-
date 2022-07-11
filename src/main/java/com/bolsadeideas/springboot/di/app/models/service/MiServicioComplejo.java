@@ -1,6 +1,6 @@
 package com.bolsadeideas.springboot.di.app.models.service;
 
-import org.springframework.stereotype.Component;
+//import org.springframework.stereotype.Component;
 
 //@Component("miServicioComplejo")
 
@@ -11,5 +11,4 @@ public class MiServicioComplejo implements IServicio{
 		return "Ejecutando algun proceso importante complicado...";
 	}
 
-	
 }

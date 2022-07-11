@@ -16,9 +16,11 @@ public class AppConfig {
 	public IServicio registrarMiServicio() {
 		return new MiServicio();
 	}
-	
+
 	@Bean("miServicioComplejo")
 	public IServicio registrarMiServicioComplejo() {
 		return new MiServicioComplejo();
+		
 	}
+
 }
