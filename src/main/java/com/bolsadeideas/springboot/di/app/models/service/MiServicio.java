@@ -1,13 +1,17 @@
 package com.bolsadeideas.springboot.di.app.models.service;
 
-import org.springframework.stereotype.Component;
+// import org.springframework.context.annotation.Primary;
+// import org.springframework.stereotype.Component;
 
-@Component
 
-public class MiServicio {
+//@Primary
+//@Component("miServicioSimple")
+public class MiServicio implements IServicio{
 
-	public String operacion() {
-		return "Ejecutando algun proceso importante...";
+
+@Override
+	public String operacion(){
+		return "Ejecutando algun proceso importante simple...";
 	}
-	
+
 }
