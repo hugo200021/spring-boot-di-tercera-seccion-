@@ -20,6 +20,7 @@ public class AppConfig {
 	@Bean("miServicioComplejo")
 	public IServicio registrarMiServicioComplejo() {
 		return new MiServicioComplejo();
+		
 	}
 
 }
