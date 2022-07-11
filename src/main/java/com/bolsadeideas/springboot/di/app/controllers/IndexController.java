@@ -15,7 +15,7 @@ public class IndexController {
 	@Qualifier("miServicioComplejo")
 	private IServicio servicio;
 
-	@GetMapping({ "/", "", "/index" })
+	@GetMapping({"/", "", "/index"})
 	public String index(Model model) {
 
 		model.addAttribute("objeto", servicio.operacion());
